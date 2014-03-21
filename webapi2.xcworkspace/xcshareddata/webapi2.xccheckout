@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>43CE1A53-B47A-44C1-B06F-08D1B8B911B8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>webapi2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>21DD4740-5DD7-4EC5-8226-CA897E49ACDF</key>
+		<string>https://github.com/rodolfotorres/webapi2.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>webapi2.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>21DD4740-5DD7-4EC5-8226-CA897E49ACDF</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rodolfotorres/webapi2.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>21DD4740-5DD7-4EC5-8226-CA897E49ACDF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>21DD4740-5DD7-4EC5-8226-CA897E49ACDF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>webapi2</string>
+		</dict>
+	</array>
+</dict>
+</plist>

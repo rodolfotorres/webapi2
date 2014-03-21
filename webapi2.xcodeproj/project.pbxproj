@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04BC09067B4D418ABC254407 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F166FBE06B0B4BF3A02FA6F0 /* libPods.a */; };
 		3114A6AE18DA1CAB00BF6436 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3114A6AD18DA1CAB00BF6436 /* Foundation.framework */; };
-		3114A6B318DA1CAB00BF6436 /* webapi2.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3114A6B218DA1CAB00BF6436 /* webapi2.h */; };
-		3114A6B518DA1CAB00BF6436 /* webapi2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3114A6B418DA1CAB00BF6436 /* webapi2.m */; };
 		3114A6BC18DA1CAB00BF6436 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3114A6BB18DA1CAB00BF6436 /* XCTest.framework */; };
 		3114A6BD18DA1CAB00BF6436 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3114A6AD18DA1CAB00BF6436 /* Foundation.framework */; };
 		3114A6BF18DA1CAB00BF6436 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3114A6BE18DA1CAB00BF6436 /* UIKit.framework */; };
 		3114A6C218DA1CAB00BF6436 /* libwebapi2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3114A6AA18DA1CAB00BF6436 /* libwebapi2.a */; };
 		3114A6C818DA1CAB00BF6436 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3114A6C618DA1CAB00BF6436 /* InfoPlist.strings */; };
-		3114A6CA18DA1CAB00BF6436 /* webapi2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3114A6C918DA1CAB00BF6436 /* webapi2Tests.m */; };
+		318341C818DCA49E0037ACEF /* WebApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 318341BE18DCA49E0037ACEF /* WebApiManager.m */; };
+		318341C918DCA49E0037ACEF /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 318341C018DCA49E0037ACEF /* Constants.m */; };
+		318341CA18DCA49E0037ACEF /* SimpleWebApiLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 318341C318DCA49E0037ACEF /* SimpleWebApiLogin.m */; };
+		318341CB18DCA49E0037ACEF /* WebApiLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 318341C518DCA49E0037ACEF /* WebApiLogin.m */; };
+		318341CC18DCA49E0037ACEF /* WebApiLoginResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 318341C718DCA49E0037ACEF /* WebApiLoginResponse.m */; };
+		318341CF18DCA4C20037ACEF /* WebApiManagerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 318341CD18DCA4C20037ACEF /* WebApiManagerSpec.m */; };
+		318341D018DCA4C20037ACEF /* WebApiSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 318341CE18DCA4C20037ACEF /* WebApiSpec.m */; };
+		318341D418DCA4CE0037ACEF /* login.json in Resources */ = {isa = PBXBuildFile; fileRef = 318341D218DCA4CE0037ACEF /* login.json */; };
+		318341D518DCA4CE0037ACEF /* loginresponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 318341D318DCA4CE0037ACEF /* loginresponse.json */; };
+		832ADD25EB2F444D848F5C01 /* libPods-webapi2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E11566F263244F30BC9D0F67 /* libPods-webapi2Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +43,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				3114A6B318DA1CAB00BF6436 /* webapi2.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,14 +52,29 @@
 		3114A6AA18DA1CAB00BF6436 /* libwebapi2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libwebapi2.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3114A6AD18DA1CAB00BF6436 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3114A6B118DA1CAB00BF6436 /* webapi2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "webapi2-Prefix.pch"; sourceTree = "<group>"; };
-		3114A6B218DA1CAB00BF6436 /* webapi2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = webapi2.h; sourceTree = "<group>"; };
-		3114A6B418DA1CAB00BF6436 /* webapi2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webapi2.m; sourceTree = "<group>"; };
 		3114A6BA18DA1CAB00BF6436 /* webapi2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webapi2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3114A6BB18DA1CAB00BF6436 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3114A6BE18DA1CAB00BF6436 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		3114A6C518DA1CAB00BF6436 /* webapi2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "webapi2Tests-Info.plist"; sourceTree = "<group>"; };
 		3114A6C718DA1CAB00BF6436 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3114A6C918DA1CAB00BF6436 /* webapi2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webapi2Tests.m; sourceTree = "<group>"; };
+		318341BD18DCA49E0037ACEF /* WebApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebApiManager.h; sourceTree = "<group>"; };
+		318341BE18DCA49E0037ACEF /* WebApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebApiManager.m; sourceTree = "<group>"; };
+		318341BF18DCA49E0037ACEF /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		318341C018DCA49E0037ACEF /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		318341C218DCA49E0037ACEF /* SimpleWebApiLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleWebApiLogin.h; sourceTree = "<group>"; };
+		318341C318DCA49E0037ACEF /* SimpleWebApiLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleWebApiLogin.m; sourceTree = "<group>"; };
+		318341C418DCA49E0037ACEF /* WebApiLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebApiLogin.h; sourceTree = "<group>"; };
+		318341C518DCA49E0037ACEF /* WebApiLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebApiLogin.m; sourceTree = "<group>"; };
+		318341C618DCA49E0037ACEF /* WebApiLoginResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebApiLoginResponse.h; sourceTree = "<group>"; };
+		318341C718DCA49E0037ACEF /* WebApiLoginResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebApiLoginResponse.m; sourceTree = "<group>"; };
+		318341CD18DCA4C20037ACEF /* WebApiManagerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebApiManagerSpec.m; sourceTree = "<group>"; };
+		318341CE18DCA4C20037ACEF /* WebApiSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebApiSpec.m; sourceTree = "<group>"; };
+		318341D218DCA4CE0037ACEF /* login.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = login.json; sourceTree = "<group>"; };
+		318341D318DCA4CE0037ACEF /* loginresponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loginresponse.json; sourceTree = "<group>"; };
+		5A17BCC3C7A7439FAF85899D /* Pods-webapi2Tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webapi2Tests.xcconfig"; path = "Pods/Pods-webapi2Tests.xcconfig"; sourceTree = "<group>"; };
+		A775485318E642CC9B587F0B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		E11566F263244F30BC9D0F67 /* libPods-webapi2Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-webapi2Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F166FBE06B0B4BF3A02FA6F0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +83,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3114A6AE18DA1CAB00BF6436 /* Foundation.framework in Frameworks */,
+				04BC09067B4D418ABC254407 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +95,7 @@
 				3114A6BC18DA1CAB00BF6436 /* XCTest.framework in Frameworks */,
 				3114A6BF18DA1CAB00BF6436 /* UIKit.framework in Frameworks */,
 				3114A6BD18DA1CAB00BF6436 /* Foundation.framework in Frameworks */,
+				832ADD25EB2F444D848F5C01 /* libPods-webapi2Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +109,8 @@
 				3114A6C318DA1CAB00BF6436 /* webapi2Tests */,
 				3114A6AC18DA1CAB00BF6436 /* Frameworks */,
 				3114A6AB18DA1CAB00BF6436 /* Products */,
+				A775485318E642CC9B587F0B /* Pods.xcconfig */,
+				5A17BCC3C7A7439FAF85899D /* Pods-webapi2Tests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +129,8 @@
 				3114A6AD18DA1CAB00BF6436 /* Foundation.framework */,
 				3114A6BB18DA1CAB00BF6436 /* XCTest.framework */,
 				3114A6BE18DA1CAB00BF6436 /* UIKit.framework */,
+				F166FBE06B0B4BF3A02FA6F0 /* libPods.a */,
+				E11566F263244F30BC9D0F67 /* libPods-webapi2Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,8 +138,11 @@
 		3114A6AF18DA1CAB00BF6436 /* webapi2 */ = {
 			isa = PBXGroup;
 			children = (
-				3114A6B218DA1CAB00BF6436 /* webapi2.h */,
-				3114A6B418DA1CAB00BF6436 /* webapi2.m */,
+				318341BD18DCA49E0037ACEF /* WebApiManager.h */,
+				318341BE18DCA49E0037ACEF /* WebApiManager.m */,
+				318341BF18DCA49E0037ACEF /* Constants.h */,
+				318341C018DCA49E0037ACEF /* Constants.m */,
+				318341C118DCA49E0037ACEF /* Model */,
 				3114A6B018DA1CAB00BF6436 /* Supporting Files */,
 			);
 			path = webapi2;
@@ -128,7 +159,9 @@
 		3114A6C318DA1CAB00BF6436 /* webapi2Tests */ = {
 			isa = PBXGroup;
 			children = (
-				3114A6C918DA1CAB00BF6436 /* webapi2Tests.m */,
+				318341D118DCA4CE0037ACEF /* Fixtures */,
+				318341CD18DCA4C20037ACEF /* WebApiManagerSpec.m */,
+				318341CE18DCA4C20037ACEF /* WebApiSpec.m */,
 				3114A6C418DA1CAB00BF6436 /* Supporting Files */,
 			);
 			path = webapi2Tests;
@@ -143,6 +176,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		318341C118DCA49E0037ACEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				318341C218DCA49E0037ACEF /* SimpleWebApiLogin.h */,
+				318341C318DCA49E0037ACEF /* SimpleWebApiLogin.m */,
+				318341C418DCA49E0037ACEF /* WebApiLogin.h */,
+				318341C518DCA49E0037ACEF /* WebApiLogin.m */,
+				318341C618DCA49E0037ACEF /* WebApiLoginResponse.h */,
+				318341C718DCA49E0037ACEF /* WebApiLoginResponse.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		318341D118DCA4CE0037ACEF /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				318341D218DCA4CE0037ACEF /* login.json */,
+				318341D318DCA4CE0037ACEF /* loginresponse.json */,
+			);
+			path = Fixtures;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3114A6CD18DA1CAB00BF6436 /* Build configuration list for PBXNativeTarget "webapi2" */;
 			buildPhases = (
+				2DB00CE0071D4A07820637FE /* Check Pods Manifest.lock */,
 				3114A6A618DA1CAB00BF6436 /* Sources */,
 				3114A6A718DA1CAB00BF6436 /* Frameworks */,
 				3114A6A818DA1CAB00BF6436 /* CopyFiles */,
+				8CF504FC0BCF48EABB402A7F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3114A6D018DA1CAB00BF6436 /* Build configuration list for PBXNativeTarget "webapi2Tests" */;
 			buildPhases = (
+				2C42EFA2DD884BBE9A7AD7A9 /* Check Pods Manifest.lock */,
 				3114A6B618DA1CAB00BF6436 /* Sources */,
 				3114A6B718DA1CAB00BF6436 /* Frameworks */,
 				3114A6B818DA1CAB00BF6436 /* Resources */,
+				9956DFF8505342139A6595E7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,17 +273,86 @@
 			buildActionMask = 2147483647;
 			files = (
 				3114A6C818DA1CAB00BF6436 /* InfoPlist.strings in Resources */,
+				318341D418DCA4CE0037ACEF /* login.json in Resources */,
+				318341D518DCA4CE0037ACEF /* loginresponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C42EFA2DD884BBE9A7AD7A9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2DB00CE0071D4A07820637FE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8CF504FC0BCF48EABB402A7F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9956DFF8505342139A6595E7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-webapi2Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3114A6A618DA1CAB00BF6436 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3114A6B518DA1CAB00BF6436 /* webapi2.m in Sources */,
+				318341CC18DCA49E0037ACEF /* WebApiLoginResponse.m in Sources */,
+				318341C818DCA49E0037ACEF /* WebApiManager.m in Sources */,
+				318341CB18DCA49E0037ACEF /* WebApiLogin.m in Sources */,
+				318341CA18DCA49E0037ACEF /* SimpleWebApiLogin.m in Sources */,
+				318341C918DCA49E0037ACEF /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +360,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3114A6CA18DA1CAB00BF6436 /* webapi2Tests.m in Sources */,
+				318341D018DCA4C20037ACEF /* WebApiSpec.m in Sources */,
+				318341CF18DCA4C20037ACEF /* WebApiManagerSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +457,7 @@
 		};
 		3114A6CE18DA1CAB00BF6436 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A775485318E642CC9B587F0B /* Pods.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/webapi2.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -340,6 +470,7 @@
 		};
 		3114A6CF18DA1CAB00BF6436 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A775485318E642CC9B587F0B /* Pods.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/webapi2.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -352,6 +483,7 @@
 		};
 		3114A6D118DA1CAB00BF6436 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A17BCC3C7A7439FAF85899D /* Pods-webapi2Tests.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -372,6 +504,7 @@
 		};
 		3114A6D218DA1CAB00BF6436 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A17BCC3C7A7439FAF85899D /* Pods-webapi2Tests.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -405,6 +538,7 @@
 				3114A6CF18DA1CAB00BF6436 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3114A6D018DA1CAB00BF6436 /* Build configuration list for PBXNativeTarget "webapi2Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +547,7 @@
 				3114A6D218DA1CAB00BF6436 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
